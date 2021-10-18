@@ -4,30 +4,103 @@
             <title>MyFlorida</title>
             <meta charset="UTF-8" />
             <meta name="viewport" content="width=device-width,initial-scale=1" />
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
             <meta name="description" content="" />
         </head>
-    <body>
-        <div name="logo">
-            <p>MyFlorida Logo</p>
-        </div>
+    <body class="bg-dark">
+        <nav class="nav navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">My Florida</a>
+                <div class = "nav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href = "business.html" class="nav-link">Business</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href = "education.html" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href = "travel.html" class="nav-link">Travel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href = "residents.html" class="nav-link">Residents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href = "government.html" class="nav-link">Government</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href = "help.html" class="nav-link">Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <h1>Government</h1>
-        
-       <div name="navbar">
-           <p>Menu</p>
-                <ul>
-                    <li><a href="index.html">home</a></li>
-                    <li><a href="business.html">business</a></li>
-                    <li><a href="government.html">Government</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="travel.html">Travel</a></li>
-                    <li><a href="residents.html">Residents</a></li>
-                    <li><a href="help.html">Help</a></li> 
-                </ul>
-       </div>
+        <h1 class="display-1 text-center text-white">Government</h1>
 
-       <div name="photo">
-          <img src="desantis.jpg" alt="Desantis Portait">
+       <section class="p-5">
+           <div class="container">
+               <div class="row">
+                   <div class="col">
+                       
+                            <img src="desantis.jpg" class="img-fluid" alt="Desantis Portait">
+                        
+                   </div>
+                   <div class="col-8 text-center">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header">Governor</div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                Ron DeSantis is the former U.S. Representative for Florida’s Sixth District and is currently serving as the 46th governor of Florida. 
+                                
+                                A native Floridian with blue-collar roots, Ron DeSantis worked his way through Yale University, where he graduated with honors and was the captain of the varsity baseball team. He also graduated with honors from Harvard Law School. While at Harvard, he earned a commission in the U.S. Navy as a JAG officer. After active-duty service, DeSantis served as a federal prosecutor, where he targeted and convicted child predators.  He was first elected to Congress in 2012, where he fought for term limits, the No Budget/No Pay Act, and to cut taxes.  While serving in Congress, Ron refused his Congressional pension and health insurance plan because he is against special deals for politicians.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col text-center">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header">Office Contact</div>
+                        <div class="card-body">
+                            <p class="card-text">Email the Governor at GovernorRon.Desantis@eog.myflorida.com
+                                Due to the high volume of emails sent to the Governor, there may be a delay in responding to your email.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>      
+                <div class="col text-center">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header">Voting & Elections</div>
+                        <div class="card-body">
+                            <p class="card-text">List of available sites on how to register and whre to vote, along with campain and canditiate information.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card text-white bg-secondary mb-3">
+                        <div class="card-header">Covid-19 Information</div>
+                        <div class="card-body">
+                            <p class="card-text">List of sites about the prevention of covid-19, along with nearby testing sites and where to get a vaccine.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               </div>
+           </div>
+       </section>
+       
+       
+       
+       
+       
+       
+       
+        <div name="photo">
+          
        </div>
 
        <div name="office-contact">
@@ -46,9 +119,12 @@
           <p>Covid-19 Information 
        </div>
 
-       <footer>
-           <p>footer</p>
-       </footer>
+       <footer class="footer">
+        <div class ="container bg-dark">
+            <span class="text-muted">Social Media</span>
+        </div>
+    </footer>
 
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>
